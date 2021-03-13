@@ -2,11 +2,12 @@
   "name": "react-relay-form",
   "version": "0.1.0",
   "description": "React form built using Relay",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
